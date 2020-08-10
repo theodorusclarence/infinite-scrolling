@@ -1,8 +1,7 @@
 let isInitialLoad = true;
 
 const imgCount = 5;
-const apiKey = config.unsplashApi;
-let unsplashApi = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${imgCount}`;
+let unsplashApi = `https://theodorus-clarence-proxy.herokuapp.com/unsp/${imgCount}`;
 
 let images = [];
 let isLoaded = false;
@@ -15,7 +14,7 @@ const loader = document.getElementById("loader");
 const topBtn = document.getElementById("to-top");
 
 function updateInitialCount(count) {
-    unsplashApi = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
+    unsplashApi = `https://theodorus-clarence-proxy.herokuapp.com/unsp/${imgCount}`;
 }
 
 //check if all images are loaded

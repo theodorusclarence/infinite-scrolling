@@ -88,9 +88,9 @@ window.addEventListener("scroll", () => {
 
     //back to top functionality
     if (scrolledHeight > 20) {
-        topBtn.hidden = false;
+        topBtn.style.display = "flex";
     } else {
-        topBtn.hidden = true;
+        topBtn.style.display = "none";
     }
 });
 

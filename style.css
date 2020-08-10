@@ -69,6 +69,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
   position: fixed;
   bottom: 1em;
   right: 1em;
